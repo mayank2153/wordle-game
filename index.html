@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2 class="heading">Wordle</h2>
+    <div class="body2">
+        <div id="board">
+
+        </div>
+        <div id="type">
+    
+        </div>
+    </div>
+    <div class="output">
+        Output Window
+        <h1 id="ans">
+
+        </h1>
+    </div>
+    <div class="buttonContainer">
+        <button class="reset buttons" onclick="reload()">Reset</button>
+        <button class="giveUp buttons" onclick="giveup()">Give Up</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
